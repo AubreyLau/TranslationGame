@@ -477,9 +477,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 536
-        y: 1175
+        y: 1158
         width: 167
-        height: 52
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,9 +498,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 753
-        y: 1176
-        width: 163
-        height: 51
+        y: 1158
+        width: 167
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,10 +581,10 @@ TextureImporter:
       name: UISpritesheetTeacherMode_42
       rect:
         serializedVersion: 2
-        x: 148
-        y: 1176
-        width: 106
-        height: 52
+        x: 123
+        y: 1158
+        width: 167
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +602,10 @@ TextureImporter:
       name: UISpritesheetTeacherMode_43
       rect:
         serializedVersion: 2
-        x: 298
-        y: 1176
-        width: 106
-        height: 49
+        x: 273
+        y: 1158
+        width: 167
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,9 +624,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 538
-        y: 1175
-        width: 160
-        height: 52
+        y: 1166
+        width: 167
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -645,9 +645,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1040
-        y: 1158
-        width: 150
-        height: 69
+        y: 1157
+        width: 167
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,7 +668,7 @@ TextureImporter:
         x: 1040
         y: 1158
         width: 167
-        height: 69
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,7 +689,7 @@ TextureImporter:
         x: 1241
         y: 1158
         width: 167
-        height: 69
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -707,10 +707,10 @@ TextureImporter:
       name: UISpritesheetTeacherMode_47
       rect:
         serializedVersion: 2
-        x: 1509
+        x: 1491
         y: 1158
-        width: 134
-        height: 69
+        width: 167
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,10 +728,10 @@ TextureImporter:
       name: UISpritesheetTeacherMode_49
       rect:
         serializedVersion: 2
-        x: 1680
+        x: 1662
         y: 1158
-        width: 134
-        height: 69
+        width: 167
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
