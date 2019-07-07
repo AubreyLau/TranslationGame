@@ -66,6 +66,8 @@ public class CharacterCreator : MonoBehaviour
         Destroy(Body);
         //Set the parent of our newly instantiated object instance to boardHolder, this is just organizational to avoid cluttering hierarchy.
         instance.transform.SetParent(this.transform);
+        Body = instance;
+        Body.transform.localScale = new Vector3(0.1f, 0.1f, 1.0f);
         instance.name = "Body";
     }
     public void GetLegs()
@@ -77,6 +79,8 @@ public class CharacterCreator : MonoBehaviour
         Destroy(Legs);
         //Set the parent of our newly instantiated object instance to boardHolder, this is just organizational to avoid cluttering hierarchy.
         instance.transform.SetParent(this.transform);
+        Legs = instance;
+        Legs.transform.localScale = new Vector3(0.1f, 0.1f, 1.0f);
         instance.name = "Legs";
     }
     public void GetHat()
@@ -88,6 +92,8 @@ public class CharacterCreator : MonoBehaviour
         Destroy(Hat);
         //Set the parent of our newly instantiated object instance to boardHolder, this is just organizational to avoid cluttering hierarchy.
         instance.transform.SetParent(this.transform);
+        Hat = instance;
+        Hat.transform.localScale = new Vector3(0.1f, 0.1f, 1.0f);
         instance.name = "Hat";
     }
 
