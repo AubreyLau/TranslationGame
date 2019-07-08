@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class ButtonStyle01 : MonoBehaviour
 {
-    bool isSelected;
+    bool isSelected = false;
     // Start is called before the first frame update
     void Start()
     {
-        isSelected = false;
+
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class ButtonStyle01 : MonoBehaviour
 
     public void OnHover()
     {
-        this.transform.localScale = new Vector3(1.3f, 1.3f, 1.0f);
+        this.transform.localScale = new Vector3(1.4f, 1.4f, 1.0f);
     }
     public void OnExit()
     {
@@ -28,7 +28,8 @@ public class ButtonStyle01 : MonoBehaviour
     }
     public void OnSelected()
     {
-        this.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+        this.transform.localScale = new Vector3(1.4f, 1.4f, 1.0f);
+        GetComponent<UnityEngine.UI.Button>().Select();
         isSelected = true;
     }
     public void OnDeSelected()
