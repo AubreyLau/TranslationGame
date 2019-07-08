@@ -81,7 +81,6 @@ public class CharacterCreator : MonoBehaviour
         GameObject instance =
             Instantiate(toInstantiate, Head.transform.position, Quaternion.identity) as GameObject;
         Destroy(Head);
-        //Set the parent of our newly instantiated object instance to boardHolder, this is just organizational to avoid cluttering hierarchy.
         instance.transform.SetParent(this.transform);
         Head = instance;
         Head.transform.localScale = new Vector3(0.1f, 0.1f, 1.0f);
@@ -94,7 +93,6 @@ public class CharacterCreator : MonoBehaviour
         GameObject instance =
             Instantiate(toInstantiate, Body.transform.position, Quaternion.identity) as GameObject;
         Destroy(Body);
-        //Set the parent of our newly instantiated object instance to boardHolder, this is just organizational to avoid cluttering hierarchy.
         instance.transform.SetParent(this.transform);
         Body = instance;
         Body.transform.localScale = new Vector3(0.1f, 0.1f, 1.0f);
@@ -106,7 +104,6 @@ public class CharacterCreator : MonoBehaviour
         GameObject instance =
             Instantiate(toInstantiate, Legs.transform.position, Quaternion.identity) as GameObject;
         Destroy(Legs);
-        //Set the parent of our newly instantiated object instance to boardHolder, this is just organizational to avoid cluttering hierarchy.
         instance.transform.SetParent(this.transform);
         Legs = instance;
         Legs.transform.localScale = new Vector3(0.1f, 0.1f, 1.0f);
@@ -118,7 +115,6 @@ public class CharacterCreator : MonoBehaviour
         GameObject instance =
             Instantiate(toInstantiate, Hat.transform.position, Quaternion.identity) as GameObject;
         Destroy(Hat);
-        //Set the parent of our newly instantiated object instance to boardHolder, this is just organizational to avoid cluttering hierarchy.
         instance.transform.SetParent(this.transform);
         Hat = instance;
         Hat.transform.localScale = new Vector3(0.1f, 0.1f, 1.0f);

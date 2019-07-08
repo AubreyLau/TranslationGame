@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{7F79271D-F41F-444A-4435-FA1E8BCD71A5}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterCreator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ButtonStyle01.cs">
     <Files>
       <File FileName="Assets/Scripts/MovingObject.cs" Line="24" Column="40" />
       <File FileName="Assets/_Complete-Game/Scripts/BoardManager.cs" Line="87" Column="49" />
-      <File FileName="Assets/Scripts/CharacterCreator.cs" Line="6" Column="1" />
+      <File FileName="Assets/Scripts/CharacterCreator.cs" Line="118" Column="9" />
       <File FileName="Assets/Scripts/Player.cs" Line="149" Column="36" />
       <File FileName="Assets/_Complete-Game/Scripts/Enemy.cs" Line="89" Column="3" />
       <File FileName="Assets/_Complete-Game/Scripts/Loader.cs" Line="11" Column="3" />
-      <File FileName="Assets/Scripts/DefaultButton.cs" Line="6" Column="43" />
+      <File FileName="Assets/Scripts/DefaultButton.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/ButtonStyle01.cs" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,9 +17,10 @@
             <Node name="Assets" expanded="True">
               <Node name="_Complete-Game" expanded="True">
                 <Node name="Animation" expanded="True" />
+                <Node name="Scripts" expanded="True" />
               </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="CharacterCreator.cs" selected="True" />
+                <Node name="ButtonStyle01.cs" selected="True" />
               </Node>
             </Node>
           </Node>
